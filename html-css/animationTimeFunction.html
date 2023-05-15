@@ -1,0 +1,36 @@
+<html>
+<head>
+<title></title>
+<style type="text/css">
+.main{
+width:700px;
+height:150px;
+border:2px black solid;
+margin:50px aauto;
+position:relative;
+}
+.box{
+width:200px;
+height:100px;
+margin-top:20px;
+background:red;
+animation:box 4s;
+position:absolute;
+animation-timing-function:linear;
+}
+@keyframes box{
+from{
+left:0px;
+}
+to{
+left:500px;
+}
+}
+</style>
+</head>
+<body>
+<div class="main">
+<div class="box">Linear</div>
+</div>
+</body>
+</html>
