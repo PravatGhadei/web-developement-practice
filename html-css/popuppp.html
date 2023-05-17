@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		#image {
+			display: none;
+		}
+        .donate{
+            background: red;
+        }
+	</style>
+</head>
+<body>
+	<div>
+		<img id="image"
+			src="imgqr.jpeg"
+		alt="GFG image" />
+	</div class="Donate">
+	<button type="button" onclick="show()" id="btnID">
+		Donate now
+	</button>
+
+	<script>
+		function show() {
+						document.getElementById('image')
+				.style.display = "block";
+			document.getElementById('btnID')
+				.style.display = "none";
+		}
+	</script>
+</body>
+</html>
