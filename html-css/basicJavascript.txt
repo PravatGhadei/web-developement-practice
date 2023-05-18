@@ -1,0 +1,17 @@
+What is document.write()and how to use?
+=>Write directly to the HTML document.
+What is prompt()and how to use?
+=>Creates an dialogue for user input.
+1.What is variable ?
+=>Variable(var) are containers which hold reusable data .
+2.How to declare and initialize variable in js?
+=>it is basic unit of storage in a program.
+3.Scope and life time of variable ?
+=>The value stored in a variable can bechanged during program execution.
+             -:Scope of Variable:-
+.Variable declared within a function are local to that function.
+.Variable declared outside of any function are global variables.
+			-:Life Time of a variable:-	
+.Local variable's life time is within the block of its declaration.
+.Global variable's life time is throughout the program.
+DOM-Document object method.			
