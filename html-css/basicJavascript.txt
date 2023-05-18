@@ -15,3 +15,14 @@ What is prompt()and how to use?
 .Local variable's life time is within the block of its declaration.
 .Global variable's life time is throughout the program.
 DOM-Document object method.			
+
+	What is an operator?
+	---------------------
+An operator is a symbol that tell the compiler which arthmetic or logical operation to be performed between the respective operands.
+
+Types of operators?
+Arithmetic.ex- +,-,*,/,%,++,--
+Logical -Human logic
+Ternary-
+Assignment-
+Comparison-==,!=,>,>=,<=
