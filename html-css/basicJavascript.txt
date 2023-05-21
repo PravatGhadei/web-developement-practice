@@ -26,3 +26,39 @@ Logical -Human logic
 Ternary-
 Assignment-
 Comparison-==,!=,>,>=,<=
+What are functions ?
+.Function are group of code or program which is used more often.
+.It leads programming to code reusability and clean code. 
+Type of function:
+1.Pre defined-Such functions are defined at the time of making of any language.
+2.User defined-Such functionare defined by users according to their needs.
+
+What are conditional statements?
+.Conditional statements(control statements)used to change the flow of the program's excution.
+		-:Types of conditional statements in js...
+.(If)-it proved true,performs a function or displays information.
+If-else=.If proved true,performs a task.
+		.If false performs any other task.
+If-elseif=.If proved true,performs a task.
+		  .If false checks another if condition.
+		 Syntax:
+		 If (condition) {
+		 //block of code to be excuted
+		 //If the condition is true
+		 }
+		 Syntax:
+		 //else if code to be excuted if 
+		 //the condition1 is false and condition2
+		 //is true
+		 Syntax:
+		 else{
+		 //block of code to be executed
+		 //If the condition is false
+		 }
+	What is an array?
+1.Array is a group of continuous memory locations.
+2.It is used to store multiple values into a single variable.	
+multiple value ko single variable ke andar store karna he.
+		What is loop ?
+.A loop is used to repeat a block of code until the specified condition is met.
+.When similar task is needed to be done again and again.
