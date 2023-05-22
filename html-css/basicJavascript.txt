@@ -62,3 +62,26 @@ multiple value ko single variable ke andar store karna he.
 		What is loop ?
 .A loop is used to repeat a block of code until the specified condition is met.
 .When similar task is needed to be done again and again.
+.Save time and leads to code reusability.
+For loop in Javascript.
+Syntax:
+for(initilization:test condition:+ement/-ement)
+{
+//statement(s)to be executed if test
+//condition is true
+}
+Example:
+for(var count=0; count<10;count++ )
+{
+document.write(count +"Wellcome to Wscube Tech <br>");
+}
+		What is while loop?
+.A while loop is to execute a statement or code blockrepeatedly as long as Condition is true.
+
+.Once the Condition becomes false.the loop terminates.
+It is also called entry control loop.
+Syntax"
+while(expression){
+//Statement(s) to executed it 
+//expression is true
+}
