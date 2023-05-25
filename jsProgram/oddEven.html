@@ -16,11 +16,8 @@
 <script type="text/javascript">
 function myFunction() {
   var num = document.getElementById('number').value;
-  if (num %2==0){
-  document.getElementById('res').value = num + "  Is Even" ;
-  }else{
-  document.getElementById('res').value = num + "  Is Odd" ;
-  }
+  (num %2==0)?document.getElementById('res').value = num + "  Is Even" : document.getElementById('res').value = num + "  Is Odd" ;
+  
 }
 </script>
 

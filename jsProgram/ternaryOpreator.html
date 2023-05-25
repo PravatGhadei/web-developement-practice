@@ -1,13 +1,23 @@
 <html>
 <head>
-<title>Ternary</title>
 </head>
 <body>
+<label>Enter Number</label>
+<input type="number" name="" id="number">
+<br>
+<br>
+<button  onclick="myFunction()">Check me</button>
+</br>
+</br>
+<input type="text" name="" id="res" readonly=""/>
+
 </body>
-<script>
-var a=103;
-var b;
-b="value is" + (a==100? "True":"False");
-document.write(b);
+<script type="text/javascript">
+function myFunction() {
+var num =document.getElementById('number').value;
+
+(num%2==0)? document.getElementById('res').value = num + " is even" : document.getElementById('res').value =  num +" is odd";
+
+}
 </script>
 </html>
