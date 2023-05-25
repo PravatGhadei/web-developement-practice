@@ -1,0 +1,27 @@
+<html>
+<head>
+</head>
+<body>
+<label>Enter Age:</label>
+<input type="number" name="first" id="first">
+<br/>
+<br/>
+<button onclick="ageCalculation()"/>Check </button>
+<input type="text" name="" id="res"/>
+</body>
+<script type="text/javascript">
+function ageCalculation(){
+var age=document.getElementById('first').value;
+
+if(age<18) {
+document.getElementById('res').value= age + " kids ";
+}else if(age>=18 && age<=50){
+document.getElementById('res').value = age + " youth ";
+} else if(age>50&& age<110){
+document.getElementById('res').value = age + " senior citizen ";
+}else{
+document.getElementById('res').value = age + " You are god ";
+}
+}
+</script>
+</html>

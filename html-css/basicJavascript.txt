@@ -72,6 +72,7 @@ for(initilization:test condition:+ement/-ement)
 }
 Example:
 for(var count=0; count<10;count++ )
+
 {
 document.write(count +"Wellcome to Wscube Tech <br>");
 }
@@ -84,4 +85,24 @@ Syntax"
 while(expression){
 //Statement(s) to executed it 
 //expression is true
+}
+If(condition){
+//block of code to be executed 
+//if the condition is true
+}else{
+//block of code to be excuted
+//if the condition is false
+}
+Syntax:
+If(condition1){
+//block of code to be executed 
+//if the condition is true
+}else if(condition2) {
+//block of code to be excuted if
+//the condition1 is false and condition2
+//is true
+}else{
+// block of code to be excuted if 
+//the condition1 is false and //condition2
+//is false
 }
