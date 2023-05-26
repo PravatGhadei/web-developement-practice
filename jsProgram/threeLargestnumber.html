@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>large1</title>
+</head>
+<body>
+<label>Num 1</label>
+<input type="number"  name="first" id="number1" >
+<label>Num 2</label>
+<input type="number" name="second" id="number2" >
+<label>num3</label>
+<input type="number" name="third" id="number3" >
+
+<br/>
+<br/>
+<button onclick="myFunction()" readonly=""/>Check</button>
+</br>
+</br>
+<input type="text" name="" id="res" readonly=""/>
+</body>
+<script type="text/javascript">
+function myFunction() {
+var num1 = document.getElementById('number1').value;
+var num2 = document.getElementById('number2').value;
+var num3 = document.getElementById('number3').value;
+var result=(num1>num2&&num1>num3)? num1 +" is largest":(num2>num1)? num2 +" is largest":num3"is largest";
+document.getElementById('res').value =result;
+}
+
+
+
+
+//if(num1>num2&&num1>num3) {
+//document.getElementById('res').value = num1 +" is largest" ;
+//}else if(num2>num3) {
+//document.getElementById('res').value = num2 +" is largest" ;
+//}else{
+//document.getElementById('res').value = num3 +" is largest" ;
+//}
+//}
+</script>
+
+</html>

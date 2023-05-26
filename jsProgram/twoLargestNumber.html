@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>large</title>
+</head>
+<body>
+<label>Num 1</label>
+<input type="number"  name="first" id="number1" >
+<label>Num 2</label>
+<input type="number" name="second" id="number2" >
+<br/>
+<br/>
+<button onclick="myFunction()" readonly=""/>Check</button>
+</br>
+</br>
+<input type="text" name="" id="res" readonly=""/>
+
+</body>
+<script type="text/javascript">
+function myFunction() {
+var num1 = document.getElementById('number1').value;
+   var num2 = document.getElementById('number2').value;
+   
+var result=(num1>num2)? num1 +" is largest":(num2>num1)? num2 +" is largest":"Both are eqal";
+document.getElementById('res').value =result;
+}
+
+
+/**if(num1 > num2){
+document.getElementById('res').value = num1 + "  is largest" ;
+}else if(num2>num1){
+document.getElementById('res').value =num2 +" is largest" ;
+}else{ 
+  document.getElementById('res').value = num2 + " better than eqal " ;
+  }
+}**/
+
+</script>
+</html>
