@@ -1,0 +1,30 @@
+<html>
+<head>
+</head>
+<body>
+<label>Start Range</label>
+<input type="number" id="first">
+
+<label>End Range</label>
+<input type="number" id="second">
+<br>
+<br>
+<button onclick="findOddEvin()">Submit</button>
+<p id="res"></p>
+</body>
+<script>
+function findOddEvin() {
+var start = document.getElementById('first').value;
+var End = document.getElementById('second').value;
+let result = "";
+for(let i=start; i<=End; i++){
+if(i%2==0){
+result += i + " Is Even"+"<br>";
+}else
+result = result + i + " Is Odd" +"<br>";
+}
+document.getElementById("res").innerHTML=result;
+}
+
+</script>
+</html>

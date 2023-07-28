@@ -1,0 +1,27 @@
+<html>
+<head>
+</head>
+<body>
+<label>Start</label>
+<input type="number" id="first">
+<label>End</label>
+<input type="number" id="second">
+<br>
+<br>
+<button onclick="sum()">Sum</button>
+<p id="res"></p>
+</body>
+<script>
+function sum(){
+var start= parseInt(document.getElementById('first').value) ;
+var end = parseInt(document.getElementById('second').value) ;
+
+var result =0 ;
+for(let i = start; i<=end; i++){
+result = result + i;
+
+}
+document.getElementById('res').innerHTML= "Sum :"+result ;
+}
+</script>
+</html>
