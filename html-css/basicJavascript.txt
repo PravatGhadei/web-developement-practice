@@ -81,7 +81,7 @@ document.write(count +"Wellcome to Wscube Tech <br>");
 
 .Once the Condition becomes false.the loop terminates.
 It is also called entry control loop.
-Syntax"
+Syntax:
 while(expression){
 //Statement(s) to executed it 
 //expression is true
@@ -106,3 +106,19 @@ If(condition1){
 //the condition1 is false and //condition2
 //is false
 }
+What is a for Each loop ?
+1.A forEach loop (method) is used to get data from JS array or object.
+2.The method calls a function once for each element in an array.In order.
+Syntax:
+Ex-Var cars =["car1" , "car2" , "car3"];
+cars.forEach(myfunction);
+function myfunction(item,index,array){
+//body of the function
+}
+item -(here "car1")required parameter
+index -(here 0 for"car1")opitional
+/**if( 5>6){
+document.write("Hii");
+}else{
+document.write("hello")
+}**/

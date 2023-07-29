@@ -1,0 +1,45 @@
+<html>
+<head>
+</head>
+<body>
+<label>Number</label>
+<input type="number"  name="first" id="number1" >
+<br>
+<br>	
+<button onclick="myFunction()" readonly=""/>Check</button> 
+<input type="text" name="" id="res" readonly=""/>
+
+</body>
+<script>
+function myFunction(){
+ var num= parseInt(document.getElementById('number1').value8;
+
+switch(num){
+case 0:
+document.getElementById('res').value="Today is sunday";
+break;
+case 1:
+document.getElementById('res').value="Today is Monday";
+break;
+case 2:
+document.getElementById('res').value="Today is Tuesday";
+break;
+case 3:
+document.getElementById('res').value="Today is Wednesday";
+break;
+case 4:
+document.getElementById('res').value="Today is Thursday";
+break;
+case 5:
+document.getElementById('res').value="Today is Friday";
+break;
+case 6:
+document.getElementById('res').value="Today is Saturday";
+break;
+default:
+document.getElementById('res').value="The day is invalid";
+
+}
+}
+</script>
+</html>
