@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.paragraph{
+    margin-left: 20px;
+}
+
+.nav-bar{
+  background-color: #00ffff;
+  width: 100%;
+  height: 80vh; 
+}
+.second{
+   align-items: center;
+   margin-left: 125px;
+   margin-top: 70px;
+   width: 1100px;
+   height: 657px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #ffffff;
+   text-align: center;
+   border-radius: 10px;
+   background: #ffffff;
+   box-shadow: 0 8px 25px 0 #000000;
+   align-items: center;
+
+}
+.photo{
+    height:0%;
+    width: 550px;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+.pgraph h5{
+    color: black;
+    height: auto;
+    width:1200px;
+    margin-top: 30px;
+    margin-left: 90px;
+
+}
+.pgraph h2{
+    color: #000000;
+margin-left: 280px;
+margin-top: 10px;
+    
+}
+.second pgraph{
+    text-align: center;
+    margin-left: 30%;
+}
+.pgraph h4{
+    color: #2019f5;
+    margin-left: 250px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.address{
+    
+}
+.email{
+    color: #000000;
+    margin-left: 60px;
+}

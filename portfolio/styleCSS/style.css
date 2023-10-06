@@ -1,0 +1,16 @@
+*body{
+    background-color: #000000;
+    margin:0%;
+    padding: 0%;
+}
+.home{
+   
+    display:flex;
+    gap:50px;
+    justify-content: end;
+}
+.home{
+        color:#07fb07
+       
+        
+}
