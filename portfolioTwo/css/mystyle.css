@@ -59,16 +59,17 @@ margin-top: 10px;
     display: inline-block;
 }
 .address{
-    
+    word-spacing: 20px;    
 }
 .pgraph ul{
     color: #0a0a0a;
     text-align: justify;
     margin-left: 630px;
+    margin-top: 5px;
 }
 .third{
     background:linear-gradient(#6565bd,#a3a3d3) ;
-    height: 500px;
+    height: 800px;
     width: auto;
     display: flex;
 }
@@ -81,26 +82,53 @@ margin-top: 10px;
     max-width: 140px;
     width: 100%;
     height: 40px;
-    margin-top: 70px;
-    /* margin-left: 500px; */
+    margin-top: 73px;
+    margin-left: 500px;
     border-radius: 10px;
 }
 .box-two{
     max-width: 140px;
     width: 100%;
     height: 40px;
-    margin-top:70px;
-    /* margin-left: 10px; */
+    margin-top:73px;
+    margin-left: 20px;
     border-radius: 10px;
 }
 .four{
     background-color: #b5b2b2;
-    height: 300px;
+    height: 450px;
     width: 7px;
     margin-top: 150px;
-    margin-right: 80px;
+    margin-left: -150px;
     border-radius: 10px;
 }
-.p{
-    color: #000000;
+.date{
+    color: #ffffff;
+    margin-left: -180px;
+    margin-top: 130px;
 }
+.date-one{
+    color: #ffffff;
+    margin-top: 130px;
+    margin-left: -190px;
+}
+.experience-one{
+color: #ffffff;
+margin-top:-330px;
+font-size: 20px;
+margin-left: -6px;
+}
+.experience-two{
+color: #faf5f5;
+margin-top: 195px;
+font-size: 20px;
+margin-left: -6px;
+}
+.collage{
+    color: #faf5f5;
+}
+.school{
+    color: #faf5f5;
+}
+    
+
