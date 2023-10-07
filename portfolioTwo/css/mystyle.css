@@ -82,7 +82,7 @@ margin-top: 10px;
     width: 100%;
     height: 40px;
     margin-top: 70px;
-    margin-left: 500px;
+    /* margin-left: 500px; */
     border-radius: 10px;
 }
 .box-two{
@@ -90,11 +90,17 @@ margin-top: 10px;
     width: 100%;
     height: 40px;
     margin-top:70px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     border-radius: 10px;
 }
 .four{
-    background-color: #989191;
-    height: 150px;
-    width: 10px;
+    background-color: #b5b2b2;
+    height: 300px;
+    width: 7px;
+    margin-top: 150px;
+    margin-right: 80px;
+    border-radius: 10px;
+}
+.p{
+    color: #000000;
 }
