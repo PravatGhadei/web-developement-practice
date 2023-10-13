@@ -1,13 +1,14 @@
 *{
     margin: 0%;
     padding: 0%;
+    
 }
 .paragraph{
     margin-left: 20px;
 }
 
 .nav-bar{
-  background:linear-gradient(#5a58db,#7585ac,#4d9eb5 );
+  background:linear-gradient(to right,#d0eb4c,#dfad2f,#32c3eb );
   width: auto;
   height: 80vh; 
 }
@@ -16,7 +17,7 @@
    margin-left: 125px;
    margin-top: 70px;
    width: 1100px;
-   height: 657px;
+   height: 730px;
    font-family: Arial, Helvetica, sans-serif;
    color: #ffffff;
    text-align: center;
@@ -28,9 +29,10 @@
 }
 .photo{
     height:0%;
-    width: 550px;
+    min-height: 30px;
+    width: 520px;
     margin-top: 50px;
-    border-radius: 10px;
+    margin: top 20px;
 
 }
 .pgraph h5{
@@ -68,8 +70,8 @@ margin-top: 10px;
     margin-top: 5px;
 }
 .third{
-    background:linear-gradient(#6565bd,#a3a3d3) ;
-    height: 800px;
+    background:linear-gradient(to right, #6565bd,#a3a3d3) ;
+    height: 700px;
     width: auto;
     display: flex;
 }
@@ -84,7 +86,7 @@ margin-top: 10px;
     height: 40px;
     margin-top: 73px;
     margin-left: 500px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .box-two{
     max-width: 140px;
@@ -100,7 +102,7 @@ margin-top: 10px;
     width: 7px;
     margin-top: 150px;
     margin-left: -150px;
-    border-radius: 10px;
+    border-radius: 2px;
 }
 .date{
     color: #ffffff;
@@ -129,6 +131,34 @@ margin-left: -6px;
 }
 .school{
     color: #faf5f5;
+    width: 50px;
 }
-    
+/* .footer-nav{
+}
+.footer-content{
+    height: 200px;
+    background-color: #0b0b0b; 
 
+}
+.social-icon{
+    margin-top: 30px;
+} */
+footer{
+width: 100%;
+/* position: absolute; */
+bottom:0;
+background: linear-gradient(to right,#00093c,#2d0b00);
+color: #fff;
+padding: 200px 0 30px;
+/* border-bottom-left-radius: 125px; */
+/* border-radius: 10px; */
+font-size: 13px;
+line-height: 20px;
+}
+.social-icon{
+    align-content: center;
+}
+.social-icon p{
+    margin-left: 900px;
+    margin-top: -120px;
+}

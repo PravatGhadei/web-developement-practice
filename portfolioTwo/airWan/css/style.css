@@ -1,0 +1,197 @@
+@media screen and (maxwidth:900px)and(min-width:600px) {
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 50px;
+    padding: 20px;
+}
+.header_nav{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+}
+.header_nav-logo{
+    width:240px
+}
+.header_nav-items{
+    display:flex;
+    gap:50px;
+    justify-content: end;
+   
+}
+.header_nav-item a{
+    color:#008000;
+    text-decoration: none;
+    
+}
+.header_nav-item a:hover{
+color:#0a0afb;
+}
+
+.slider-caption-one{
+    text-align: center;
+    background-color: #eeee57;
+    height: 50px;
+}
+.slider-caption-two{
+    text-align: center;
+    background-color: #3eddeb;
+    height: 50px;
+
+}
+.slider-caption-three{
+    text-align: center;
+    background-color: #eeee57;
+    height: 50px;
+
+}
+.layout-section{
+    display: flex;
+    padding: 20px;
+    padding-block: 20px;
+}
+/* .container{
+    height:px;
+} */
+
+ .first-icon{
+     right: 20px;
+    left: 15px;
+    top: 23px;  
+     height: 50px;
+     width: 50px;
+    border-radius: 100px;
+    box-shadow: 0 0 5px #000;
+    margin: 0 auto;
+    display: block;
+    background: #fcf6f6;
+   
+    transition: 2s ease-out;
+}
+.first-icon img{
+    height: 55px;
+    width: 57px;
+    margin-left: -4px;
+    margin-top: -5px;
+} 
+.pgraph-one{
+    text-align: center;
+}
+.bottom-img img{
+    border-radius: 100px;
+    border: 2px solid green;
+    max-width: 100px;
+    margin-left: 140px;
+}
+.second-icon{
+    right: 20px;
+   left: 15px;
+   top: 23px;  
+    height: 50px;
+    width: 50px;
+   border-radius: 100px;
+   box-shadow: 0 0 5px #000;
+   margin: 0 auto;
+   display: block;
+   background: #fcf6f6;
+  
+   transition: 2s ease-out;
+}
+.second-icon img{
+   height: 55px;
+   width: 57px;
+   margin-left: -2px;
+   margin-top: -0px;
+} 
+.pgraph-two{
+   text-align: center;
+}
+.third-icon{
+    right: 20px;
+   left: 15px;
+   top: 23px;  
+    height: 50px;
+    width: 50px;
+   border-radius: 100px;
+   box-shadow: 0 0 5px #000;
+   margin: 0 auto;
+   display: block;
+   background: #fcf6f6;
+  
+   transition: 2s ease-out;
+}
+.third-icon img{
+   height: 55px;
+   width: 57px;
+   margin-left: -2px;
+   margin-top: -0px;
+} 
+.pgraph-three{
+   text-align: center;
+}
+.box{
+    width: 300px;
+    height: 445px;
+    background-color: #f7faf9;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    box-shadow: 0 3px 5px rgb(2, 246, 153);
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    }
+.box p{
+        font-size: 15px;
+        color: #777;
+    }
+.box h5{
+    font-size: 20px;
+    padding: 20px 0;
+    color: #000;
+}
+.box button{
+    width: 140px;
+    height: 40px;
+    background-color: #333;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 40px;
+
+}
+.box button:hover{
+    letter-spacing: 2px;
+    opacity: .8;
+    /* color: ; */
+}
+.box::before{
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+.box::after{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    padding: 7px 0;
+    background-color: #00ae6a;
+    color: aliceblue;
+    text-align: center;
+
+}
