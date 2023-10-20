@@ -84,8 +84,8 @@ color:#0a0afb;
 .bottom-img img{
     border-radius: 100px;
     border: 2px solid green;
-    max-width: 100px;
-    margin-left: 140px;
+    max-width: 70px;
+    margin-left: 20px;
 }
 .second-icon{
     right: 20px;
@@ -135,7 +135,7 @@ color:#0a0afb;
 }
 .box{
     width: 300px;
-    height: 445px;
+    height: 200px;
     background-color: #f7faf9;
     border-radius: 5px;
     padding: 20px;
@@ -146,6 +146,7 @@ color:#0a0afb;
     overflow: hidden;
     position: relative;
     z-index: 0;
+    margin-left: 80px;
     }
 .box p{
         font-size: 15px;
@@ -157,15 +158,16 @@ color:#0a0afb;
     color: #000;
 }
 .box button{
-    width: 140px;
+    width: 100px;
     height: 40px;
-    background-color: #333;
+    background-color: #4dd275;
     border: none;
     outline: none;
     font-size: 17px;
     cursor: pointer;
     border-radius: 50px;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
 
 }
 .box button:hover{
