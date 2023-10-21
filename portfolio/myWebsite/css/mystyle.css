@@ -8,7 +8,7 @@
 }
 
 .nav-bar{
-  background:linear-gradient(to right,#d0eb4c,#dfad2f,#32c3eb );
+  background:linear-gradient(to right,#97cbfc,#1e8ee9,#32c3eb );
   width: auto;
   height: 80vh; 
 }
@@ -70,7 +70,7 @@ margin-top: 10px;
     margin-top: 5px;
 }
 .third{
-    background:linear-gradient(to right, #6565bd,#a3a3d3) ;
+    background:linear-gradient(to right, #3baff1,#699eec) ;
     height: 700px;
     width: auto;
     display: flex;
