@@ -128,5 +128,11 @@ h3 {
         border-bottom: 1px dotted #001e3c;
         margin-bottom: 30px;
     }
-
- 
+   .skill-sec-pgraph{
+       height: 500px;
+       width: 100%;
+   }
+   .col-ssp-one{
+    height: 500px;
+    width: 50%;  
+   }
