@@ -1,0 +1,20 @@
+<html>
+<body>
+<p>Name space In TypeScript</p>
+</body>
+<script>
+NameSpace usersUtils
+{
+export classUsers extends parent implements usertype
+{
+getName()
+{
+return this.Name
+}
+}
+}
+let u1=new UserUtils.Users();
+u1.setName("tony")
+console.warn(u1.getName())
+</script>
+</html>

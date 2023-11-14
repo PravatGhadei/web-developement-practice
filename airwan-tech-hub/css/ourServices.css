@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header_nav{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+.header_nav-logo{
+    width:200px;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+.header_nav-items{
+    display:flex;
+    gap:40px;
+    justify-content: end;
+    margin-right: 40px;
+   
+}
+.header_nav-item a{
+    color:black;
+    text-decoration: none;
+    
+}
+.header_nav-item a:hover{
+color:#00ae65;
+}
