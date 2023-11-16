@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+   
+
+.container{  
+margin: 0 50px;
+padding: 20px;
+}
+.header_nav{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+}
+.header_nav-logo{
+    width:200px
+}
+.header_nav-items{
+    display:flex;
+    gap:50px;
+    justify-content: end;
+   
+}
+.header_nav-item a{
+    color:black;
+    text-decoration: none;
+    
+}
+.header_nav-item a:hover{
+color:#00ae65;
+}
+
+.slider-caption-one{
+    text-align: center;
+    background-color: #eeee57;
+    height: 50px;
+}
+.slider-caption-two{
+    text-align: center;
+    background-color: #3eddeb;
+    height: 50px;
+
+}
+.slider-caption-three{
+    text-align: center;
+    background-color: #eeee57;
+    height: 50px;
+
+}
+.layout-section{
+    display: flex;
+    padding: 20px;
+    padding-block: 20px;
+}
+/* .container{
+    height:px;
+} */
+.container-one{
+    position: relative;
+    height:auto;
+    width:1366px;
+}
+
+.container-one img{
+    /* height: 300px; */
+    width:100%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color:white;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+  }
+  .about-top .about-top-head h3 {
+    position: relative;
+    color: #00ae6a;
+    margin-bottom: 25px;
+}
+.about-top .about-top-head h3 span {
+    background: #f3f3f3;
+    border: 1px solid #00ae6a;
+    padding: 5px 15px;
+    position: relative;
+    z-index: 1;
+    font-family:sans-serif;
+    
+}
+.about-top .about-top-head h3:before {
+    background: #00ae6a;
+    content: "";
+    display: block;
+    height: 5px;
+    position: absolute;
+    /* top: 50%;
+    width: 100%; */
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h3 {
+    color: #001e3c;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'OpenSansLight';
+}
+ .about-top .about-top-head h3:before
+ { 
+    background:#00ae6a;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 50%; 
+    width: 100%; }
+    p {
+        margin: 5px 0 10px 0;
+        /* text-align: center; */
+    }
+    .about-top .about-top-head {
+        position: relative;
+        text-align: center;
+        padding-bottom: 15px;
+        border-bottom: 1px dotted #001e3c;
+        margin-bottom: 30px;
+    }
