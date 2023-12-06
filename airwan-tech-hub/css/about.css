@@ -136,3 +136,8 @@ h3 {
     height: 500px;
     width: 50%;  
    }
+   .about-midle{
+       height: 300px;
+       width: 300px;
+       background: -o-linear-gradient(#000000,#204920)
+   }
