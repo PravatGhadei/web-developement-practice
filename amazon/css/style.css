@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "popins",sans-serif;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 60px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+height: 50px;
+width: 100px;
+}
+.logo{
+    background-image: url(../images/amazon_logo.png);
+    background-size:cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+
+}
+.border:hover{
+    border: 1.5px solid #ffffff;
+} */
+/* box2 */
+/* .add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+} */
+/* box3 */
+/* .nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid #ffa500
+} */
+/* box4 */
+/* span{
+  font-size: 0.7rem;
+
+} */
+/* .nav-second{
+    font-size: 0.85rem;
+    font-weight: 700px;
+} */
+/* box6 */
+/* .nav-cart{
+    font-size: 30px;
+
+} */
+/* panel */
+/* .panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+} */
+/* counter-section */
+/* .subcribe-section {
+    padding: 30px 0 20px 0;
+    background: #00a584;
+    color: #fff;
+}
+.container {
+    width: 100%;
+    max-width: 1170px;
+    content: '';
+    padding: 0 15px;
+}
+.container .row {
+    margin-bottom: 0;
+}
+.counter_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter_info span {
+    font-size: 70px;
+    color: #ffffff;
+}
+.counter_info p {
+    margin-bottom: 0;
+    color: #ec6e39;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    top: 16px;
+}
+.fact span {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 85px;
+    
+} */
+body{
+    background-color: #121317;
+}
+.wrapper{
+    position: absolute;
+    width:80vw;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.container{
+    width: 28vmin;
+    height: 28vmin;
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+    border-radius: 0.5em;
+    background-color: #21242b;
+    border-bottom: 10px solid #18f98f;
+}
+i{
+    color: #18f98f;
+    font-size: 2.5em;
+    text-align: center;
+}
+span.num{
+    color:#ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+}
+span.text{
+color: #e0e0e0;
+font-size: 1em;
+text-align: center;
+pad: 0.7em 0;
+font-weight: 400;
+line-height: 0;
+}
+@media screen and (max-width:1024px){
+    .wrapper{
+        width:85vw;
+    }
+    .container{
+        height: 26vmin;
+        width: 26vmin;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:1024px){
+    .wrapper{
+        width: 90vw;
+        flex-wrap: wrap;
+        gap: 30px;
+    }  
+    .container{
+        width:calc(50% - 40px);
+        height: 30vmin;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:480px){
+    .wrapper{
+        gap:15px;
+    }  
+    .container{
+        width:100%;
+        height: 25vmin;
+        font-size: 8px;
+    }
+}

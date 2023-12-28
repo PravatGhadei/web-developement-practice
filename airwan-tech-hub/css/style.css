@@ -175,13 +175,20 @@ text-align: center;
     width: 219vh;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    /* font-size: 16px; */
-    /*  */
+/* canva-sec */
+.capability-section{
+    height: 660px;
+    width: 100%;
+    background: linear-gradient(rgba 0,0,0,0.7),url(/D:\programFile\web-developement-practice\airwan-tech-hub\images)
 }
+.capabiliti-head h2{
+    text-align: center;
+    
+}
+.capability-content h4{
+    text-align: center;
+}
+/* footer-start */
 footer{
     background:#424141;
     padding-top: 50px;
